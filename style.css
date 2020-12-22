@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.column {
+    display: inline-block;
+    max-width: 960px;
+    box-sizing:border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box; 
+}
+
+.row:after {
+    position: relative;
+    display: inline-block;
+    clear: both;
+}
+
+input, input[type='text'] {
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+}
+
+select {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.uwoCourseCode {
+    border: 1;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a, a:after {
+    color:red;
+    text-decoration: none;
+}
